@@ -30,7 +30,7 @@ public OnGameModeInit() {
 }
 
 stock OnGameModeInitEx() {
-    if (GetServerVarAsInt("port") == 7778) SendRconCommand("mapname SA|VC|LC");
+    if (GetServerVarAsInt("port") == 7778) SendRconCommand("mapname San Andreas");
     SendRconCommand("hostname Indian Ocean Roleplay - Open Source Server");
     SetPreciseTimer("RemovePassword", 60 * 1000, false);
     // SendRconCommand("hostname IORP TM [Phase 5] - Maintenance Mode");
